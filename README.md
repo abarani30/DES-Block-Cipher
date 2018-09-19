@@ -6,7 +6,8 @@
 
 1- It used to encrypt messgae (plain text) of length 64-bits and produce the cipher text (unreadable message) of length 64-bit too.<br>
 2- It used symmetric key, means that the same key will be used for both encryption & decryption. <br>
-3- It gets the power from using the F function which is a function involves several consecutive steps.<br><br>
+3- It gets the power from using the F function which is a function involves several consecutive steps.<br>
+4- The algorithm involves 16-rounds and in each round there is 48-bit key(i) used for both encryption & decryption. 
 
 <b>References:</b>
 You can find all of the details about how to encrypt and decrypt, especially the steps of both encryption and decryption by reading about the algorithm in the following links:<br><br>
