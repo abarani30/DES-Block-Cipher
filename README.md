@@ -1,6 +1,7 @@
 **What is DES?** 
 
-It is an encryption/decryption algrotihm or technique used to encrypt and decrypt a block of data. \
+It is an encryption/decryption algrotihm or technique used to encrypt and decrypt a block of data. 
+
 
 **Features of DES:**
 
@@ -8,6 +9,7 @@ It is an encryption/decryption algrotihm or technique used to encrypt and decryp
 2. It used symmetric key, means that the same key will be used for both encryption & decryption. <br>
 3. It gets the power from using the F function which is a function involves several consecutive steps.<br>
 4. The algorithm involves 16-rounds and in each round there is 48-bit key(i) used for both encryption & decryption. 
+
 
 **References:** 
 
