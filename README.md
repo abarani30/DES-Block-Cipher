@@ -10,3 +10,22 @@ It is an encryption/decryption algrotihm or technique used to encrypt and decryp
 3. It gets the power from using the F function which is a function involves several consecutive steps.<br>
 4. The algorithm involves 16-rounds and in each round there is 48-bit key(i) used for both encryption & decryption. 
 
+
+ ### ============================ Message Processing ===============================
+
+        ```
+        initialMsg = plainText.get(1.0,END)
+        print(len(initialMsg))
+
+        if len(initialMsg) < 9 or len(initialMsg) > 9:
+            print("Please, enter 64 bits or 8 bytes as initial message ")
+        else:
+            byteMsg = initialMsg.encode('utf-8')
+            hexaMsg = str(byteMsg.hex())
+            tempMsg = []
+            s = ""
+            for i in str(hexaMsg):
+                for j in hexa_to_bin:
+                    if i == j:
+                        tempMsg.append(hexa_to_bin[j])
+            binMsg = s.join(tempMsg)```
