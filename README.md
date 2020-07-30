@@ -11,12 +11,11 @@ It is an encryption/decryption algrotihm or technique used to encrypt and decryp
 4. The algorithm involves 16-rounds and in each round there is 48-bit key(i) used for both encryption & decryption. 
 
 
- ### ============================ Message Processing ===============================
-
-        ```
+ **Message Processing**
+ 
+ Some of code snippet from our project. Here we're trying to convert our initial plain text (message) to binary:
+       
         initialMsg = plainText.get(1.0,END)
-        print(len(initialMsg))
-
         if len(initialMsg) < 9 or len(initialMsg) > 9:
             print("Please, enter 64 bits or 8 bytes as initial message ")
         else:
@@ -28,4 +27,4 @@ It is an encryption/decryption algrotihm or technique used to encrypt and decryp
                 for j in hexa_to_bin:
                     if i == j:
                         tempMsg.append(hexa_to_bin[j])
-            binMsg = s.join(tempMsg)```
+            binMsg = s.join(tempMsg)
