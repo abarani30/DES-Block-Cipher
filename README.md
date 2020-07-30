@@ -1,6 +1,6 @@
 **What is DES?** 
 
-It is an encryption/decryption algrotihm or technique used to encrypt and decrypt a block of data. You can read more about the algorithm [here](http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm) and also [here](http://www.umsl.edu/~siegelj/information_theory/projects/des.netau.net/Dataencryptionalgorithm.html)
+It is an encryption/decryption algrotihm or technique used to encrypt and decrypt a block of data. You can read more about the algorithm [here](http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm) and also [here](http://www.umsl.edu/~siegelj/information_theory/projects/des.netau.net/Dataencryptionalgorithm.html).
 
 
 **Features of DES:**
